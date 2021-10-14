@@ -34,6 +34,10 @@ public class AjavaprimeApplication {
 public RestTemplate getRestTemplate() {
 	return new RestTemplate();
 }
+
+public void display() {
+	
+}
 	public static void main(String[] args) {
 		
 		SpringApplication.run(AjavaprimeApplication.class, args);
